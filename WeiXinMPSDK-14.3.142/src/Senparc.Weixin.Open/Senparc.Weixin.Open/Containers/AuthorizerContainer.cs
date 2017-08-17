@@ -43,6 +43,10 @@
     修改标识：Senparc - 20161203
     修改描述：v2.3.4 优化TryGetAuthorizerAccessToken方法，避免authorization_info.authorizer_access_token值为空
 
+
+    修改标识：20170817
+    修改描述：1、主要去掉AuthorizerBag对象的属性改变事件；2、修改方法GetAuthorizationInfo第一次获取不到最新accessToken的Bug和accessToken改变后主动更新缓存
+
 ----------------------------------------------------------------*/
 
 using System;
